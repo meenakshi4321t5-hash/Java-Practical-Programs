@@ -1,7 +1,9 @@
-Q1.Create an Employee class with private variables empId, name, and department. 
-   Add getters and setters using this keyword. Print the details using getters.
 
-CODE :
+/*
+Q1. Create an Employee class with private variables empId, name, and department.
+Add getters and setters using this keyword. Print the details using getters.
+*/
+
 class Employee {
     private int empId;
     private String name;
@@ -46,7 +48,9 @@ public class Main {
     }
 }
 
-
-OUTPUT : 101
-         Rahul
-         IT
+/*
+OUTPUT:
+101
+Rahul
+IT
+*/
