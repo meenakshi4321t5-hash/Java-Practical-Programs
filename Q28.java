@@ -1,0 +1,25 @@
+/*
+Q28. Given an integer array, use a HashMap to count
+the frequency of every element.
+*/
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 2, 3, 1, 2, 4};
+
+        HashMap<Integer, Integer> freq = new HashMap<>();
+
+        for (int num : arr) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        }
+
+        System.out.println(freq);
+    }
+}
+
+/*
+OUTPUT (order may vary):
+{1=2, 2=3, 3=1, 4=1}
+*/
